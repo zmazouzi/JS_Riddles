@@ -1,7 +1,7 @@
 
 
-
-
+// increment the value of a giving array of numbers by one
+// increment([2, 7, 3]) returns [2, 7, 4]
 
 var increment = function (numbers) {
 
@@ -22,8 +22,6 @@ var increment = function (numbers) {
 
         }
 
-
-
         iterator--;
     }
     return numbers
@@ -32,10 +30,3 @@ var increment = function (numbers) {
 }
 console.log(increment([9,9]))
 
-
-
-
-
-
-
-// [1,0,9] ==> [1,1,0]
